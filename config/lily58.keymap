@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+&soft_off { hold-time-ms = 5000; }; // Only turn off it the key is held for 5 seconds or longer.
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -69,9 +71,6 @@
         };
 
         extra_1 { status = "reserved"; };
-
-
-        &soft_off { hold-time-ms = <5000>; }; // Only turn off it the key is held for 5 seconds or longer.
 
         extra_2 { status = "reserved"; };
 

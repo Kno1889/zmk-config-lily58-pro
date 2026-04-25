@@ -20,7 +20,7 @@
 ---
 include:
   - board: nice_nano/nrf52840
-    shield: lily58_left nice_view_adapter nice_view_gem
+    shield: lily58_left
     artifact-name: lily58_left
   - board: nice_nano/nrf52840
     shield: lily58_right nice_view_adapter nice_view_custom

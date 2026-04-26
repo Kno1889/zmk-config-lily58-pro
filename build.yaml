@@ -19,15 +19,15 @@
 #
 ---
 include:
-  # - board: nice_nano/nrf52840
-  #   shield: lily58_left
-  #   artifact-name: lily58_left
-  # - board: nice_nano/nrf52840
-  #   shield: lily58_right nice_view_adapter nice_view_custom
-  #   artifact-name: lily58_right
+  - board: nice_nano/nrf52840
+    shield: lily58_left
+    artifact-name: lily58_left
+  - board: nice_nano/nrf52840
+    shield: lily58_right nice_view_adapter nice_view_custom
+    artifact-name: lily58_right
     # shield: lily58_right nice_view_adapter nice_view_gem
   # Recovery: uncomment both lines below, flash to BOTH halves, then re-comment and reflash normal firmware
-  - board: nice_nano/nrf52840
-    shield: settings_reset
-    artifact-name: settings_reset
+  # - board: nice_nano/nrf52840
+  #   shield: settings_reset
+  #   artifact-name: settings_reset
 

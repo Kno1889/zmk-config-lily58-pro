@@ -19,10 +19,9 @@
 #
 ---
 include:
-  # LHS: SSD1306 0.91" 128x32 OLED (wired up by the stock lily58_left shield)
   - board: nice_nano/nrf52840
-    shield: lily58_left
-    artifact-name: lily58_left_oled
+    shield: lily58_left nice_view_adapter nice_view_custom
+    artifact-name: lily58_left
   - board: nice_nano/nrf52840
     shield: lily58_right nice_view_adapter nice_view_custom
     artifact-name: lily58_right
